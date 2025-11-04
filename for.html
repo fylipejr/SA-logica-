@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="for">
+    <section>
+        <h2>Estrutura de Repetição For</h2>
+        <p><strong>Explicação:</strong> Loop com contador.</p>
+        <pre><code>for (let i = 0; i < 3; i++) { console.log(i); }</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para executar.</p>
+        <button onclick="exemploFor()">Executar</button>
+        <div id="output-for"></div>
+        <script>
+            function exemploFor() {
+                let output = "";
+                for (let i = 0; i < 3; i++) {
+                    output += i + " ";
+                }
+                document.getElementById('output-for').innerHTML = output;
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

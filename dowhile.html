@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="dowhile">
+    <section>
+        <h2>Estrutura de Repetição DoWhile</h2>
+        <p><strong>Explicação:</strong> Executa pelo menos uma vez e repete se a condição for verdadeira.</p>
+        <pre><code>let i = 0; do { console.log(i); i++; } while (i < 3);</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para executar.</p>
+        <button onclick="exemploDoWhile()">Executar</button>
+        <div id="output-do-while"></div>
+        <script>
+            function exemploDoWhile() {
+                let i = 0;
+                let output = "";
+                do {
+                    output += i + " ";
+                    i++;
+                } while (i < 3);
+                document.getElementById('output-do-while').innerHTML = output;
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

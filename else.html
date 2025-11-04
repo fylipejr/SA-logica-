@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+     <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="else">
+    <section>
+        <h2>Estruturas Condicional IF/Else</h2>
+        <p><strong>Explicação:</strong> Executa código se uma condição for verdadeira.</p>
+        <pre><code>if (idade > 18) { console.log("Maior"); } else { console.log("Menor"); }</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para verificar.</p>
+        <button onclick="exemploIfElse()">Executar</button>
+        <div id="output-if-else"></div>
+        <script>
+            function exemploIfElse() {
+                let idade = 20;
+                if (idade > 18) {
+                    document.getElementById('output-if-else').innerHTML = "Maior";
+                } else {
+                    document.getElementById('output-if-else').innerHTML = "Menor";
+                }
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="switch">
+    <section>
+        <h2>Estrutura de Seleção Switch/Case</h2>
+        <p><strong>Explicação:</strong> Seleciona código baseado em um valor.</p>
+        <pre><code>switch (dia) { case 1: console.log("Domingo"); }</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para executar.</p>
+        <button onclick="exemploSwitchCase()">Executar</button>
+        <div id="output-switch-case"></div>
+        <script>
+            function exemploSwitchCase() {
+                let dia = 1;
+                let resultado;
+                switch (dia) {
+                    case 1: resultado = "Domingo"; break;
+                    default: resultado = "Outro";
+                }
+                document.getElementById('output-switch-case').innerHTML = resultado;
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

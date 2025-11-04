@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="each">
+    <section>
+        <h2>Estrutura de Repetição ForEach</h2>
+        <p><strong>Explicação:</strong> Executa uma função para cada elemento de um array.</p>
+<pre><code>
+const frutas = ["Maçã", "Banana", "Laranja"];
+frutas.forEach(function(fruta) {
+    console.log(fruta);
+});
+</code></pre>
+
+<p><strong>Exemplo Prático:</strong> Clique para executar.</p>
+<button onclick="exemploForEach()">Executar</button>
+<div id="output-foreach"></div>
+
+<script>
+    function exemploForEach() {
+        const frutas = ["Maçã", "Banana", "Laranja"];
+        let output = "";
+        frutas.forEach(function(fruta, index) {
+            output += index + ": " + fruta + "<br>";
+        });
+        document.getElementById('output-foreach').innerHTML = output;
+    }
+</script>
+   
+            <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="v">
+
+    <section>
+        <!--<code> é usada para representar trechos de código em HTML.-->
+        <!--<strong> em HTML é atribuir forte importância semântica ao texto que ela envolve.-->
+        <h2>Variáveis e Tipos de Dados</h2>
+        <p><strong>Explicação:</strong> Variáveis armazenam dados como texto, números ou booleanos. Use let, const ou var.</p>
+        <pre><code>let nome = "João"; let idade = 25; let isTrue = true;</code></pre>
+        <p><strong>Exemplo Prático:</strong>Clique para exibir.</p>
+        <button onclick="exemploVariaveis()">Executar</button>
+        <div id="output-variaveis"></div>
+        <script>
+            function exemploVariaveis() {
+                let nome = "João";
+                document.getElementById('output-variaveis').innerHTML = nome;
+            }
+        </script>
+      <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+    </section>
+</div>
+</div>
+</body>
+</html>

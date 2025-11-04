@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="or">
+    <section>
+        <h2>Operadores Relacionais</h2>
+        <p><strong>Explicação:</strong> Comparam valores, como maior que (>) ou igual (==).</p>
+        <pre><code>let isMaior = 10 > 5;</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para verificar.</p>
+        <button onclick="exemploOperadoresRelacionais()">Executar</button>
+        <div id="output-operadores-relacionais"></div>
+        <script>
+            function exemploOperadoresRelacionais() {
+                let isMaior = 10 > 5;
+                document.getElementById('output-operadores-relacionais').innerHTML = isMaior;
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

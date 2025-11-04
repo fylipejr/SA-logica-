@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="while">
+    <section>
+        <h2>Estrutura de Repetição While</h2>
+        <p><strong>Explicação:</strong> Repete enquanto uma condição é verdadeira.</p>
+        <pre><code>let i = 0; while (i < 3) { console.log(i); i++; }</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para repetir.</p>
+        <button onclick="exemploWhile()">Executar</button>
+        <div id="output-while"></div>
+        <script>
+            function exemploWhile() {
+                let i = 0;
+                let output = "";
+                while (i < 3) {
+                    output += i + " ";
+                    i++;
+                }
+                document.getElementById('output-while').innerHTML = output;
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

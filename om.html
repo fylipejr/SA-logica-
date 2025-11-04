@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+    <div id="om">
+    <section>
+        <h2>Operadores Matemáticos</h2>
+        <p><strong>Explicação:</strong> Realizam cálculos como soma (+), subtração (-), etc.</p>
+        <pre><code>let soma = 5 + 3;</code></pre>
+        <p><strong>Exemplo Prático:</strong> Clique para calcular.</p>
+        <button onclick="exemploOperadoresMatematicos()">Executar</button>
+        <div id="output-operadores-matematicos"></div>
+        <script>
+            function exemploOperadoresMatematicos() {
+                let soma = 5 + 3;
+                document.getElementById('output-operadores-matematicos').innerHTML = soma;
+            }
+        </script>
+    </section>
+    <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+</div>
+</div>
+</body>
+</html>

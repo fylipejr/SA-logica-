@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image:url(fundo.png);
+            background-color:  #6699CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="borda">
+  <div id="js">
+    <h1>Contador de Cliques em JavaScript</h1>
+    <button id="botaoContar">Clique aqui</button>
+    <p id="resultado">Contagem: 0</p>
+
+    <script>
+        let contagem = 0;
+        const botao = document.getElementById("botaoContar");
+        const resultado = document.getElementById("resultado");
+
+        botao.addEventListener("click", function() {
+            contagem++;
+            resultado.textContent = "Contagem: " + contagem;
+        });
+    </script>
+    <div id="tela">
+     <img src="Captura de tela 2025-10-23 075311.png">
+    </div>
+     <br><br> <a href="index.html" class="botão" id="botao13">Inicio</a>
+
+</div>
+</div>
+</body>
+</html>

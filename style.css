@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    background-image:url(fundo.png);
+    background-color:  #6699CC;
+}
+#borda{
+    margin: auto;
+    width: 500px;
+    background-color: gainsboro;
+    border-radius: 5% ;
+}
+.botão {
+  background-color: #0056b3; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+    display: inline-block; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+  #botao1{
+    width: 180px;
+  }
+  #botao2{
+    width: 180px;
+  }
+  #botao3{
+    width: 180px;
+  }
+  #botao4{
+    width: 180px;
+  }
+  #botao5{
+    width: 180px;
+  }
+  #botao6{
+    width: 180px;
+  }
+  #botao7{
+    width: 180px;
+  }
+  #botao8{
+    width: 180px;
+  }
+  #botao9{
+    width: 180px;
+  }
+  #botao10{
+    width: 180px;
+  }
+  #botao11{
+    width: 180px;
+  }
+  #botao12{
+    width: 180px;
+  }
+  #botao13{
+    width: 180px;
+  }
+
+ #v{
+  margin: auto;
+    width: 390px;
+    background-color: gainsboro;
+    border-radius: 7% ;
+ }
+  #tela{
+    width: 500px; 
+    height: 190px; 
+    border-radius:10%;
+    overflow: hidden;
+  }
